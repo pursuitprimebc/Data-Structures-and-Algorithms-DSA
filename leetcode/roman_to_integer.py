@@ -40,5 +40,4 @@ class Solution:
                 total -= current_value
             else:
                 total += current_value
-
         return total
