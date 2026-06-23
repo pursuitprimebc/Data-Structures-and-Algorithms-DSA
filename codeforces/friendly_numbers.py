@@ -7,7 +7,7 @@ for i in range(t):
         y_str = str(y)
         for i in y_str:
             number = int(i)
-            sum_of_y += number
+            sum_of_y += number 
 
         if (y-sum_of_y)==x:
             count += 1 
