@@ -4,7 +4,7 @@ return the index where it would be if it were inserted in order.
 
 You must write an algorithm with O(log n) runtime complexity.'''
 class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
+    def searchInsert(self, nums: list[int], target: int) -> int:
         count = 0
         for i in nums:
             if i==target:
