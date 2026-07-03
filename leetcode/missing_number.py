@@ -3,7 +3,7 @@ Given an array nums containing n distinct numbers in the range [0, n], return th
 '''
 
 class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
+    def missingNumber(self, nums: list[int]) -> int:
         n = len(nums)
         expected_sum = n*(n+1)//2
         current_sum = sum(nums)
