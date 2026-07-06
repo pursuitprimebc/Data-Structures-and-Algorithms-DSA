@@ -19,3 +19,11 @@ for i in range(count_3):
     operation += '3+'
 
 print(operation[:-1])
+
+# Another way (Did it while revising the problem.)
+
+s= sorted((map(int,input().split('+'))))
+a =''
+for i in s:
+    a += str(i) + '+'
+print(a[:-1])
