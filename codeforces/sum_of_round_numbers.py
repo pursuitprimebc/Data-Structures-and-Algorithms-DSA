@@ -2,7 +2,6 @@ t = int(input())
 for i in range(t):
     n = input()
     summands = []
-    count = 0
     d = len(n)
     for i in range(d):
         if n[i] != '0':
