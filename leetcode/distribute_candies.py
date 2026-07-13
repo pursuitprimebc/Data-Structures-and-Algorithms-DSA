@@ -14,7 +14,7 @@ class Solution:
         for i in candyType:
             total_candies += 1
             
-        doctor_limit = total_candies // 2
+        doctor_limit = total_candies // 2 
         unique_candies = 0
         d = {}
         for j in candyType:
