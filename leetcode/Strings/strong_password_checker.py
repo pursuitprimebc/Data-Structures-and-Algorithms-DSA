@@ -14,7 +14,6 @@ Replace one character of password with another character.
 '''
 
 
-
 class Solution:
     def strongPasswordChecker(self, password: str) -> int:
         missing_type = 3
