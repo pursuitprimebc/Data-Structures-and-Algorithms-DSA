@@ -1,11 +1,9 @@
 n = int(input())
-m = n
-res = []
-while m >1:
-    if m%2==0:
-        m = m//2
+res = [n]
+while n >1:
+    if n%2==0:
+        n = n//2
     else:
-        m *= 3
-        m += 1
-    res.append(m)
-print(n,*res)
+        n = (n*3) + 1
+    res.append(n)  
+print(*res)
